@@ -1,4 +1,8 @@
-![](https://cdn.dmx3377.uk/turbostar-banner.png)
+<picture id="banner">
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.dmx3377.uk/turbostar-banner-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.dmx3377.uk/turbostar-banner.png">
+  <img alt="" src="https://cdn.dmx3377.uk/turbostar-banner.png">
+</picture>
 
 Turbostar is an asynchronous CLI tool designed to manage complex development environments where multiple languages (Python, JavaScript, Lua) must run in harmony. It handles process lifecycle, output aggregation, and dependency graphing.
 
