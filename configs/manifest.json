@@ -1,0 +1,21 @@
+{
+  "services": [
+    {
+      "name": "ENGINE-PY",
+      "command": "python plugins/backend.py",
+      "color": "\u001b[36m",
+      "ready_signal": "Engine Warming up"
+    },
+    {
+      "name": "DASHBOARD-JS",
+      "command": "node plugins/frontend.js",
+      "color": "\u001b[33m",
+      "depends_on": "ENGINE-PY"
+    },
+    {
+      "name": "LOGIC-LUA",
+      "command": "lua plugins/logic.lua",
+      "color": "\u001b[35m"
+    }
+  ]
+}
