@@ -57,5 +57,6 @@ cd turbostar
 | `depends_on`   | Name of the service this process must wait for.             |
 
 ## License
-This project is licensed under the BSD 3-Clause License, see the LICENSE file for further details.
+&copy; 2025-2026 dmx3377 <<david@dmx3377.uk>> <br/>
+This project is licensed under the Apache 2.0 License, see the [LICENSE](/LICENSE) file for further details.
 
